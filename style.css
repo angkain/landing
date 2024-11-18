@@ -1,0 +1,147 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f7ff; /* Biru muda untuk background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header .logo-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+header .logo-text h1 {
+    font-size: 36px;
+    color: #1d5a8c; /* Biru untuk judul */
+}
+
+header .logo-text .subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+header .logo-text .highlight {
+    color: #1d5a8c; /* Warna biru untuk "financial consultant" */
+}
+
+.coming-soon {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.coming-soon h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #1d5a8c; /* Biru untuk heading */
+    margin-bottom: 20px;
+}
+
+.coming-soon p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d5a8c; /* Biru untuk subtitle */
+    margin-bottom: 40px;
+}
+
+.countdown {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d5a8c;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #1d5a8c; /* Biru saat hover */
+}
+
+footer p {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* Hijau khas WhatsApp */
+    padding: 20px;
+    border-radius: 50%; /* Membuat tombol bulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 30px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    background-color: #128c7e; /* Warna hijau lebih gelap saat hover */
+}
+
+@media (max-width: 768px) {
+    .coming-soon h2 {
+        font-size: 36px;
+    }
+
+    .coming-soon p {
+        font-size: 14px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+    }
+
+    /* .whatsapp-button {
+        padding: 15px;
+        font-size: 24px;
+    } */
+}
