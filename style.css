@@ -87,6 +87,59 @@ header .logo-text .highlight {
     color: #1d5a8c;
 }
 
+.contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 32px;
+    color: #1d5a8c; /* Biru untuk heading */
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    background-color: #1d5a8c; /* Biru untuk tombol */
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #155b8a; /* Warna biru lebih gelap saat hover */
+}
+
 footer {
     margin-top: 40px;
     text-align: center;
@@ -115,7 +168,7 @@ footer p {
     right: 20px;
     background-color: #25d366; /* Hijau khas WhatsApp */
     padding: 20px;
-    border-radius: 50%; /* Membuat tombol bulat */
+    border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     color: white;
     font-size: 30px;
@@ -140,8 +193,9 @@ footer p {
         font-size: 20px;
     }
 
-    /* .whatsapp-button {
+    .whatsapp-button {
         padding: 15px;
         font-size: 24px;
-    } */
-}
+    }
+
+    .contact-form {
